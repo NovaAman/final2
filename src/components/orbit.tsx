@@ -6,7 +6,7 @@ export const Orbito = ({
     }: PropsWithChildren<{ size: number }>) => {
     return(
         <div className=' absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2'>
-            <div className='border border-red-500' style={{
+            <div className='' style={{
                     height: `${size}px`,
                     width: `${size}px`,
                 }}>

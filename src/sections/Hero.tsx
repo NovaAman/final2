@@ -9,7 +9,7 @@ import { scroll } from 'framer-motion/dom';
 
 export const HeroSection = () => {
   return( 
-  <div id='hero' className='  py-32 md:py-48 lg:py-60 relative z-0 overflow-clip'>
+  <div id='her' className='  py-32 md:py-48 lg:py-60 relative z-0 overflow-clip'>
     <div className='absolute inset-0 -z-30 opacity-5' style={{
       backgroundImage:`url(${grain.src})`,
     }}>
