@@ -47,7 +47,7 @@ export const TestimonialsSection = () => {
   return(
   <div className="py-12 lg:py-20">
     <div className="container">
-          <Section eyebrow="" title="What clients say about me" description=" Don't just take my word for it. See what my clients have to say about my work."/>
+          <Section eyebrow="" title="My Thumbnail works" description=" Don't just take my word for it. See my previous works."/>
           <div className="py-4 -my-4 mt-16 lg:mt-24 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
             <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:100s] hover:[animation-play-state:paused]">
 

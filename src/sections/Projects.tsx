@@ -1,6 +1,6 @@
-import darkSaasLandingPage  from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import darkSaasLandingPage  from "@/assets/images/video.jpg";
+import lightSaasLandingPage from "@/assets/images/thumbnail.jpg";
+import aiStartupLandingPage from "@/assets/images/brand.jpg";
 import Image from 'next/image';
 import Icono from'@/assets/icons/check-circle.svg'
 import Aroo from '@/assets/icons/arrow-up-right.svg'
@@ -17,7 +17,7 @@ const portfolioProjects = [
       { title: "Amazing story telling" },
     ],
     link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    image: darkSaasLandingPage    ,
   },
   {
     company: "YT Thumbnails",

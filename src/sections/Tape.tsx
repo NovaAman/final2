@@ -2,17 +2,15 @@ import Star from "@/assets/icons/star.svg"
 import { Fragment } from "react";
 
 const words = [
+  "Engaging",
   "Performant",
-  "Accessible",
-  "Secure",
-  "Interactive",
-  "Scalable",
-  "User Friendly",
-  "Responsive",
-  "Maintainable",
-  "Search Optimized",
-  "Useable",
-  "Reliable",
+  "Cool design",
+  "Precise",
+  "Creative",
+  "Storyteller",
+  "Dynamic",
+  "Impactful",
+  "Visualizer",
 
 ]
 

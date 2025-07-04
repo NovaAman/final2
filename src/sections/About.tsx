@@ -11,7 +11,7 @@ import Git from "@/assets/icons/github.svg"
 import Chrome from "@/assets/icons/chrome.svg"
 import map from "@/assets/images/map.png"
 import smile from "@/assets/images/memoji-smile.png"
-import { CardHeader } from "@/components/card-header";
+import { CardHeader } from "@/sections/card-header";
 import { Toolbox } from "@/components/toolbox";
 import {motion} from "framer-motion"
 import { useRef } from "react";
