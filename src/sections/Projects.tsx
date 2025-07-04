@@ -16,7 +16,7 @@ const portfolioProjects = [
       { title: "With best motion graphics " },
       { title: "Amazing story telling" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
+    link: "#",
     image: darkSaasLandingPage    ,
   },
   {
@@ -26,7 +26,7 @@ const portfolioProjects = [
       { title: "Boosted click through rate by 93%" },
       { title: "Boosted views by 70%" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
+    link: "#",
     image: lightSaasLandingPage,
   },
   {
@@ -36,7 +36,7 @@ const portfolioProjects = [
       { title: "Enhanced subscription by 55%" },
       { title: "Improved recogniton by 50%" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "#",
     image: aiStartupLandingPage,
   },
 ]
