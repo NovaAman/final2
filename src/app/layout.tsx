@@ -14,7 +14,7 @@ const calistoga = Calistoga({
     weight:["400"], });
 
 export const metadata: Metadata = {
-  title: "Ha Edit",
+  title: "Ha Creative",
   description: "Best editor and thumbnail designer",
 };
 
