@@ -21,8 +21,12 @@ export const ContactSection = () => {
       </p>
             </div>
             <div>
-              <button className="border border-gray-950 text-white bg-gray-950 inline-flex items-center px-6 h-12 rounded-xl w-max gap-2 ">
+              <a href="tel:+251976877165">
+
+                <button className="border border-gray-950 text-white bg-gray-950 inline-flex items-center px-6 h-12 rounded-xl w-max gap-2 ">
               <span className="font-semibold">Contact Me</span> <Arro className="size-4"/> </button>
+              </a>
+              
             </div>
           </div>
         </div>
