@@ -59,7 +59,7 @@ export const HeroSection = () => {
 
           <div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4'>
 
-            <a className='z-50' href="#projects">
+            <a className='z-50' href="#past">
               <button className=' transition duration-700 hover:border-black  hover:bg-white/50 hover:text-gray-950 scroll-m-20 inline-flex items-center gap-2 border rounded-xl  px-6 h-12'>
               <span className='font-semibold '>Past works</span>
               <Arrow className="size-4"/>
