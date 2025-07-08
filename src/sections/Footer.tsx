@@ -1,23 +1,11 @@
 import Arro from '@/assets/icons/arrow-up-right.svg'
+import Link from 'next/link';
 
-const links =[
-  {
-    title:'Tiktok',
-    href:''
-  },
-  {
-    title:'Instagram',
-    href:'/'
-  },
-  {
-    title:'Telegram',
-    href:'/'
-  },
-]
+
 
 export const Footer = () => {
   return(
-    <footer className='relative -z-10 overflow-clip'>
+    <footer className='relative overflow-clip'>
       <div className='absolute h-[400px] w-[1600px] bottom-0 left-1/2 
       -translate-x-1/2 bg-[#DE9200]/30 -z-10 [mask-image:radial-gradient(50%_50%_at_bottom_center,black,transparent)]'></div>
       <div className="container">
@@ -26,24 +14,27 @@ export const Footer = () => {
 
           <nav className='flex flex-col gap-8 items-center md:flex-row'>
             
-              <div className=' items-center gap-1.5' >
+              <div className='flex flex-col items-center gap-8' >
+                
+                  <a href='https//vm.tiktok.com/ZMSbBwFD8' className='pointer-events-auto z-50 relative font-semibold'> 
+                  <div className='inline-flex'>
+                    <span>Tiktok</span>
+                <Arro className="size-4"/>
+                </div> </a>
+              
+
                 <div className='inline-flex'>
-                  <a href='' className='z-50 font-semibold'>Tiktok</a>
+                  <a href='https://www.instagram.com/haedit_videos?igsh=YzljYTk1ODg3Zg==' className='z-50 font-semibold'>Instagram</a>
                 <Arro className="size-4"/>
                 </div>
 
-                <div className='inline-flex'>
-                  <a href='' className='z-50 font-semibold'>Instagram</a>
+                <div className='z-[999] inline-flex'>
+                 
+                  <a  href='https://t.me/rivolume' className=' font-semibold'>Telegram</a>
                 <Arro className="size-4"/>
+                 
+                  
                 </div>
-
-                <div className='z-50 inline-flex'>
-                  <a  href='#hero' className='z-50 font-semibold'>Telegram</a>
-                <Arro className="size-4"/>
-                </div>
-
-
-
               </div>
           </nav>
         </div>
