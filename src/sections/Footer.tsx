@@ -16,7 +16,7 @@ export const Footer = () => {
             
               <div className='flex flex-col items-center gap-8' >
                 
-                  <a href='https//vm.tiktok.com/ZMSbBwFD8' className='pointer-events-auto z-50 relative font-semibold'> 
+                  <a href='https//tiktok.com/@ha.edit1' className='pointer-events-auto z-50 relative font-semibold'> 
                   <div className='inline-flex'>
                     <span>Tiktok</span>
                 <Arro className="size-4"/>
