@@ -4,7 +4,7 @@ import { abilities } from '../components/constants'
 
 const Feature = () => {
     return (
-    <div className='w-full padding-x-lg'>
+    <div id='about' className='w-full padding-x-lg'>
     <div className='mx-auto grid-3-cols'>
         {abilities.map(({title, desc}) => (
             <div key={title} className='card-border bg-gray-950/50 m-4 rounded-xl p-8 flex flex-col gap-4'>

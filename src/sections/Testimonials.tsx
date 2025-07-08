@@ -1,45 +1,150 @@
-import memojiAvatar1 from "@/assets/images/memoji-avatar-1.png";
-import memojiAvatar2 from "@/assets/images/memoji-avatar-2.png";
-import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
-import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
-import memojiAvatar5 from "@/assets/images/memoji-avatar-5.png";
 import { Section } from "@/components/Section";
 import Image from "next/image";
 import grain from "@/assets/images/grain.jpg"
 import { Card } from "@/components/card";
 import { Fragment } from "react";
 import thumb from "@/assets/images/thumb.jpg"
+import t1 from "@/assets/images/thumbnail.jpg"
+import t2 from "@/assets/images/t2.jpg"
+import t3 from "@/assets/images/t3.jpg"
+import t4 from "@/assets/images/t4.jpg"
+import t5 from "@/assets/images/t5.jpg"
+import t6 from "@/assets/images/t6.jpg"
+import t7 from "@/assets/images/t7.jpg"
+import t8 from "@/assets/images/t8.jpg"
+import t9 from "@/assets/images/t9.jpg"
+import t10 from "@/assets/images/t10.jpg"
+import t11 from "@/assets/images/t11.jpg"
+import t12 from "@/assets/images/t12.jpg"
+import t13 from "@/assets/images/t13.jpg"
+import t14 from "@/assets/images/t14.jpg"
+import t15 from "@/assets/images/t15.jpg"
+import t16 from "@/assets/images/t16.jpg"
+import t17 from "@/assets/images/t17.jpg"
+import t18 from "@/assets/images/t18.jpg"
+import t19 from "@/assets/images/t19.jpg"
+import t20 from "@/assets/images/t20.jpg"
+import t22 from "@/assets/images/t21.jpg"
+import t23 from "@/assets/images/t22.jpg"
+import t24 from "@/assets/images/t23.jpg"
+import t25 from "@/assets/images/t24.jpg"
+import t26 from "@/assets/images/t25.jpg"
+import t27 from "@/assets/images/t26.jpg"
+import t28 from "@/assets/images/t27.jpg"
+import t29 from "@/assets/images/t28.jpg"
 
 const testimonials = [
   {
-    name: "Alex Turner",
-    position: "Marketing Manager @ TechStartups",
-    text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
-    avatar: memojiAvatar1,
+    name: "",
+    image: t1,
   },
   {
-    name: "Olivia Green",
-    position: "Head of Design @ GreenLeaf",
-    text: "Working with Alex was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
-    avatar: memojiAvatar2,
+    name: "",
+     image: t2,
   },
   {
-    name: "Daniel White",
-    position: "CEO @ InnovateCo",
-    text: "Alex's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
-    avatar: memojiAvatar3,
+    name: "",
+     image: t3,
   },
   {
-    name: "Emily Carter",
-    position: "Product Manager @ GlobalTech",
-    text: "Alex is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
-    avatar: memojiAvatar4,
+    name: "",
+     image: t4,
   },
   {
-    name: "Michael Brown",
-    position: "Director of IT @ MegaCorp",
-    text: "Alex's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
-    avatar: memojiAvatar5,
+    name: "",
+     image: t5,
+  },
+    {
+    name: "",
+    image: t6,
+  },
+  {
+    name: "",
+     image: t7,
+  },
+  {
+    name: "",
+     image: t8,
+  },
+  {
+    name: "",
+     image: t9,
+  },
+  {
+    name: "",
+     image: t10,
+  },
+    {
+    name: "",
+    image: t11,
+  },
+  {
+    name: "",
+     image: t12,
+  },
+  {
+    name: "",
+     image: t13,
+  },
+  {
+    name: "",
+     image: t14,
+  },
+  {
+    name: "",
+     image: t15,
+  },
+     {
+    name: "",
+    image: t16,
+  },
+  {
+    name: "",
+     image: t17,
+  },
+  {
+    name: "",
+     image: t18,
+  },
+  {
+    name: "",
+     image: t19,
+  },
+  {
+    name: "",
+     image: t20,
+  },
+  {
+    name: "",
+     image: t22,
+  },
+  {
+    name: "",
+     image: t23,
+  },
+  {
+    name: "",
+     image: t24,
+  },
+  {
+    name: "",
+     image: t25,
+  },
+     {
+    name: "",
+    image: t26,
+  },
+  {
+    name: "",
+     image: t27,
+  },
+  {
+    name: "",
+     image: t28,
+  },
+  {
+    name: "",
+     image: t29,
   },
 ];
 
@@ -49,16 +154,17 @@ export const TestimonialsSection = () => {
     <div className="container">
           <Section eyebrow="" title="My Thumbnail works" description=" Don't just take my word for it. See my previous works."/>
           <div className="py-4 -my-4 mt-16 lg:mt-24 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
-            <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:100s] hover:[animation-play-state:paused]">
+            <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:200s] hover:[animation-play-state:paused]">
 
               {[...new Array(2)].fill(0).map((_, index) => (
                 <Fragment key={index}>
 
                 {testimonials.map((testimonial) =>(
-              <Card key={testimonial.name} className="max-w-xs p-6 md:max-w-md md:p-8 
+              <Card key={testimonial.name} className="
               hover:-rotate-3 transition duration-500
               ">
-                  <div className="bg-black w-80 h-20"></div>
+                  <div className=" bg-white w-80 h-48"></div>
+                  <Image className="object-cover" fill sizes="(max-width: 768px) 100vw, 33vw" src={testimonial.image} alt="testimonial.name"/>
               </Card>
             ))}
             </Fragment>

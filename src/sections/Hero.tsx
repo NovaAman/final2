@@ -67,7 +67,7 @@ export const HeroSection = () => {
             </a>
             
 
-            <a className='z-50' href="ht">
+            <a className='z-50' href="#contact">
 
               <button className='  hover:bg-white/10 hover:text-white transition duration-300 inline-flex items-center gap-2 hover:bg-white bg-white/5 rounded-xl px-6 h-12 text-gray-900'>
               <span className=' text-gray-300 size-18 font-semibold'>Let&apos;s connect</span>

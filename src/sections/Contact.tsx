@@ -7,7 +7,7 @@ export const ContactSection = () => {
   return(
     <div id="contact" className=" py-16 pt-12 lg:py-24 lg:pt-20">
       <div className="container">
-        <div className=" relative z-0 overflow-hidden text-gray-300 py-8 px-10 text-center rounded-3xl bg-gradient-to-r from-[#576475] to-[#37384A]">
+        <div className=" relative z-0 overflow-hidden text-gray-300 py-8 px-10 text-center rounded-3xl bg-gradient-to-r from-[#694f1f] to-[#4a3103]">
           <div className="absolute inset-0 opacity-5 -z-10"
           style={{
             backgroundImage:`url(${grain.src})`,
@@ -21,7 +21,7 @@ export const ContactSection = () => {
       </p>
             </div>
             <div>
-              <button className="border border-gray-950 text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl w-max gap-2 ">
+              <button className="border border-gray-950 text-white bg-gray-950 inline-flex items-center px-6 h-12 rounded-xl w-max gap-2 ">
               <span className="font-semibold">Contact Me</span> <Arro className="size-4"/> </button>
             </div>
           </div>

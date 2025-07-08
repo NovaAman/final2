@@ -3,10 +3,10 @@ export const Header = () => {
 
     <nav className="flex fixed mt-10 gap-1 p-0.5 border-white/15 border bg-white/10 backdrop-blur rounded-full">
 
-      <a href="" className="nav-item">Home</a>
-      <a href="" className="nav-item">Projects</a>
-      <a href="" className="nav-item">About</a>
-      <a href="" className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900">Contact</a>
+      <a href="#hero" className="nav-item">Home</a>
+      <a href="#projects" className="nav-item">Projects</a>
+      <a href="#about" className="nav-item">Features</a>
+      <a href="#contact" className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900">Contact</a>
     </nav>
 
 
