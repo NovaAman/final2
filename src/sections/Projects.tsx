@@ -16,7 +16,7 @@ const portfolioProjects = [
       { title: "With best motion graphics " },
       { title: "Amazing story telling" },
     ],
-    link: "#",
+    link: "https://tiktok.com/@ha.edit1",
     image: darkSaasLandingPage    ,
   },
   {
@@ -26,7 +26,7 @@ const portfolioProjects = [
       { title: "Boosted click through rate by 93%" },
       { title: "Boosted views by 70%" },
     ],
-    link: "#",
+    link: "https://tiktok.com/@ha_creative1",
     image: lightSaasLandingPage,
   },
   {
@@ -36,7 +36,7 @@ const portfolioProjects = [
       { title: "Enhanced subscription by 55%" },
       { title: "Improved recogniton by 50%" },
     ],
-    link: "#",
+    link: "https://tiktok.com/@ha_creative1",
     image: aiStartupLandingPage,
   },
 ]
